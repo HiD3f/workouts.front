@@ -1,6 +1,7 @@
+
 <template>
-        <div>
-            <div v-for="exercise in exercises" :key="exercise.id">{{ exercise.title }}</div>
+    <div class="bg-white">
+        <div v-for="exercise in exercises" :key="exercise.id">{{ exercise.title }}</div>
     </div>
 </template>
 
